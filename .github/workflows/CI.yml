@@ -70,6 +70,10 @@ jobs:
         run: |
           7z a -mx9 "./Build/app.7z" "./Build/app.asar"
           Compress-Archive -Path "./Build/app.asar" -DestinationPath "./Build/app.zip"
+      - name: Generate sha256sum file
+        shell: pwsh
+        run: |
+          Get-FileHash -Algorithm SHA256 -Path "./Build/app.7z", "./Build/app.zip" | ForEach-Object { "$($_.Path | Split-Path -Leaf): $($_.Hash)" } | Out-File -FilePath "./Build/sha256sum"
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
@@ -77,26 +81,26 @@ jobs:
           name: Clash for Windows v${{ steps.get_tag.outputs.tag }} 汉化补丁
           prerelease: false
           draft: false
-          artifacts: "./Build/app.7z,./Build/app.zip"
+          artifacts: "./Build/app.7z,./Build/app.zip,./Build/sha256sum"
           body: |
             [![](https://img.shields.io/badge/Channel-blue?label=Telegram&logo=telegram)](https://t.me/ClashR_for_Windows_Channel) [![](https://img.shields.io/badge/Group-green?label=Telegram&logo=telegram)](https://t.me/+Se4RSc06w8QK1HiS)
-            
+
             ⚠️汉化永久免费，请注意欺诈！！！
-            
+
             ## 汉化方法：
-            
+
             下载 `app.7z` 或 `app.zip` 文件(*两个压缩包内容一样*)后，解压压缩包，请自行替换下列路径中的 `app.asar` 文件
 
             `Clash for Windows\resources\app.asar`
 
             ## 相关推荐：
 
-            ### 相关推荐1：OK加速
+            ### 相关推荐1：逐日
 
             8.8折优惠卷码：clash
 
-            [OK加速](http://o.okjiasu.com/auth/register?code=F9B0)
-            [TG群组一键直达](https://t.me/okjiasu)
+            [逐日](http://zhuri.cc/auth/register?code=F9B0)
+            [TG群组一键直达](https://t.me/zhuricc)
             [TG公告板一键直达](https://t.me/okjiasuqi)
 
             特色属性：
@@ -106,6 +110,7 @@ jobs:
             ✅免费提供Netflix高级视频会员账号。
             ✅免费提供iOS美区id内含小火箭/圈X等多款付费软件。
             购买小火箭、Google voice👉[神马杂货铺](https://googlevoice.top/)
+            Chatgpt网站👉[WOAIAI·GPT](https://chat1.woaiai.cc/)
 
 
             ### 相关推荐2：Cherry VPN

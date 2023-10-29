@@ -54,7 +54,7 @@ Dashboard has crashed=主窗口崩溃了
 'Reload'='重载'
 "Exit"="退出"
 'Exit'='退出'
-"General"="常规"
+#"General"="常规"
 'General'='常规'
 "Proxies"="代理"
 'Proxies'='代理'
@@ -181,11 +181,11 @@ Vue compiler=Vue 编译器
 'Cancel'='取消'
 "OK"="确定"
 'OK'='确定'
-"Error"="错误"
+#"Error"="错误"
 'Error'='错误'
 "\n          Cancel\n        "="\n          取消\n        "
 '\n          Cancel\n        '='\n          取消\n        '
-"Select"="选择"
+#"Select"="选择"
 'Select'='选择'
 ", at \""=", 位于 \""
 ', at "'=', 位于 "'
@@ -201,7 +201,7 @@ Vue compiler=Vue 编译器
 'only works when TAP mode enabled'='仅在启用 TAP 模式时生效'
 "[ Reset ]"="[ 重置 ]"
 '[ Reset ]'='[ 重置 ]'
-"Warning"="警告"
+#"Warning"="警告"
 'Warning'='警告'
 "Are you sure to reset all settings?"="确定重置所有设置吗?"
 'Are you sure to reset all settings?'='确定重置所有设置吗?'
@@ -209,7 +209,7 @@ Vue compiler=Vue 编译器
 'Reset\x20All\x20Settings'='重置所有设置'
 "Reset All Settings"="重置所有设置"
 'Reset All Settings'='重置所有设置'
-"General"="常规"
+#"General"="常规"
 "Settings Editor"="配置编辑器"
 'Settings Editor'='配置编辑器'
 "Editor"="编辑器"
@@ -224,7 +224,7 @@ Vue compiler=Vue 编译器
 Stop Sorting=停止排序
 "GUI Log Folder"="GUI 日志文件夹"
 'GUI Log Folder'='GUI 日志文件夹'
-"Open"="打开"
+#"Open"="打开"
 'Open'='打开'
 "Appearance"="外观"
 'Appearance'='外观'
@@ -294,7 +294,7 @@ v("Type")=v("类型")
 'Connections'='连接'
 "Break When Proxy Change"="代理更改时中断连接"
 'Break When Proxy Change'='代理更改时中断连接'
-"None"="不中断"
+#"None"="不中断"
 'None'='不中断'
 'Chain'='旧链'
 "Chain"="旧链"
@@ -368,9 +368,9 @@ v("Type")=v("类型")
 'Shortcut'='触发热键'
 System Proxy: "=系统代理: "
 System Proxy: '=系统代理: '
-"On"="开启"
+#"On"="开启"
 'On'='开启'
-"Off"="关闭"
+#"Off"="关闭"
 'Off'='关闭'
 'Mixin:\x20'='混合配置: '
 "Mixin: "="混合配置: "
@@ -481,7 +481,7 @@ wait for method [=等待 [
 "Proxy Name"="代理名称"
 "Server"="服务器IP或域名"
 'Server'='服务器IP或域名'
-"Port"="端口"
+#"Port"="端口"
 'Port'='端口'
 "Password"="密码"
 'Password'='密码'
@@ -795,12 +795,12 @@ Change Mixed Port=变更 Mixed 端口
 'Restarting core...'='正在重启内核...'
 "CMD with proxy"="CMD 代理"
 'CMD with proxy'='CMD 代理'
-"Allow LAN"="允许局域网连接"
-'Allow LAN'='允许局域网连接'
+"Allow LAN"="允许局域网代理"
+'Allow LAN'='允许局域网代理'
 "Core Version"="Clash 核心版本"
 'Core Version'='Clash 核心版本'
-"Clash Core"="Clash 核心 ( API 端口 )"
-'Clash Core'='Clash 核心 ( API 端口 )'
+"Clash Core"="Clash 核心"
+'Clash Core'='Clash 核心'
 "Home Directory"="配置文件主目录"
 'Home Directory'='配置文件主目录'
 'Home\x20Directory'='配置文件主目录'
@@ -969,21 +969,21 @@ Lightweight Mode=轻量模式
 Proxies)=个代理节点)
 
 ##v0.15.0
-Host:=主机:
+#Host:=主机:
 Upload:=上传:
 ,Download:=,下载:
 ,Source:=,连接源:
 Destination:=目标:
 ,Rule:=,规则:
 Chains:=链路:
-"Pause"="暂停"
-"Resume"="恢复"
+#"Pause"="暂停"
+#"Resume"="恢复"
 #"search"="筛选"
 ##v0.15.0
 
 ###v0.15.2
 "Enhanced Tray"="增强托盘"
-"Text"="文本"
+#"Text"="文本"
 "Text to display in tray"="要在增强托盘中显示的文本"
 v("Script"=v("脚本"
 "Script to run"="增强托盘运行的脚本"
@@ -1029,20 +1029,20 @@ t.chains[0]=t.chains[0]==="DIRECT"?"直连":t.chains[0]
 e._s(e.mode)=("global"==e._s(e.mode)?"全局":"rule"==e._s(e.mode)?"规则":"direct"==e._s(e.mode)?"直连":"script"==e._s(e.mode)?"脚本":e._s(e.mode))
 e._s(e.logLevel)=("silent"==e._s(e.logLevel)?"静默":"error"==e._s(e.logLevel)?"错误":"warning"==e._s(e.logLevel)?"警告":'warn'==e._s(e.logLevel)?"警告":"info"==e._s(e.logLevel)?"信息":"debug"==e._s(e.logLevel)?"调试":e._s(e.logLevel))
 ###v0.15.3
-e.mode[0].toUpperCase()=("G"==e.mode[0].toUpperCase()?"全局":"R"==e.mode[0].toUpperCase()?"规则":"D"==e.mode[0].toUpperCase()?"直连":"S"==e.mode[0].toUpperCase()?"脚本":e.mode[0].toUpperCase())
+#e.mode[0].toUpperCase()=("G"==e.mode[0].toUpperCase()?"全局":"R"==e.mode[0].toUpperCase()?"规则":"D"==e.mode[0].toUpperCase()?"直连":"S"==e.mode[0].toUpperCase()?"脚本":e.mode[0].toUpperCase())
 
 ## 增强托盘自定义文字位置
-fillText(c,300,50)=fillText(c,320,50)
+#fillText(c,300,50)=fillText(c,320,50)
 
 ## 0 B/s末尾位置
-280+(=310+(
+#280+(=310+(
 
 #20210910
 
-,270,=,300,
-93,3=123,3
-lineTo(100=lineTo(130
-107,3=137,3
+#,270,=,300,
+#93,3=123,3
+#lineTo(100=lineTo(130
+#107,3=137,3
 
 
 ###v0.15.5
@@ -1071,7 +1071,7 @@ Traffic:=流量:
 "Router"="路由"
 "Select a interface"="选择一个接口"
 "Configuration"="配置"
-"Interface"="接口"
+#"Interface"="接口"
 "Local IP Address"="本地IP地址"
 "DHCP IP Range"="DHCP 分配 IP 地址范围"
 "From"="起始IP地址"
@@ -1115,7 +1115,7 @@ Traffic:=流量:
 #v0.17.1
 #之前多翻译一个地方，导致连接页面不显示信息。
 #以下是此版本的修正和补充翻译
-"Custom"="自定义"
+#"Custom"="自定义"
 "Copy Command"="复制命令"
 "Update Cron (UNIX)"="更新定时任务 (UNIX 系统)"
 #v0.17.1-end
@@ -1173,7 +1173,6 @@ serviceNeedUpdate?"updated":"installed"=serviceNeedUpdate?"更新":"安装"
 #v0.18.4
 "You can make some changes to a profile then we merge them for you when you refresh the profile."="你可以对配置文件进行一些更改，程序将会在配置文件更新时自动合并到新的配置文件中。"
 "Delete diff files"="删除合并文件"
-"Make changes"="修改合并文件"
 "Init diff files"="初始化合并文件"
 {hint:"make diff"}={hint:"构建合并文件"}
 #v0.18.4-end
@@ -1181,9 +1180,9 @@ serviceNeedUpdate?"updated":"installed"=serviceNeedUpdate?"更新":"安装"
 #v0.18.6
 "Show in folder"="打开所在文件夹"
 "Rules"="规则"
-"Copy"="复制"
+#"Copy"="复制"
 "QRCode"="URL和二维码"
-"Delete"="删除"
+#"Delete"="删除"
 "Show connections"="查看连接"
 "Reorder"="重新排序"
 "Diff"="合并"
@@ -1245,7 +1244,7 @@ title:"Cache"=title:"缓存"
 e._v("Fake IP Cache")=e._v("Fake IP 缓存")
 "Failed with reason: ".concat(n)="Failed with reason: ".concat(n.replace("bucket not found","未找到DNS存储桶"))
 "Fake IP cache cleared":"Failed with reason: "="Fake IP 缓存已清除":"失败原因: "
-"Abort"="中止"
+#"Abort"="中止"
 "Edit Mixin content"="编辑 Mixin混合配置 内容"
 #v0.19.1-end
 
@@ -1948,7 +1947,7 @@ can only be used to decorate a parameter"=只能用于装饰一个参数"
 "TrustedTypes policy "="TrustedTypes 政策 "
 " could not be created."=" 无法创建。"
 "toString is not a function"="toString 不是函数"
-"dirty is not a string, aborting"="脏不是字符串，中止"
+"dirty is not a string, aborting"="脏数据不是字符串，中止"
 "Cannot edit in read-only editor"="无法在只读编辑器中编辑"
 "Whether the editor is currently showing an inline message"="编辑器当前是否显示内联消息"
 "Decoration has no range"="装修没有范围"
@@ -2061,7 +2060,7 @@ role:"services"=role:"services",label:"服务"
 role:"hide"=role:"hide",label:"隐藏"
 role:"hideothers"=role:"hideothers",label:"隐藏其它窗口"
 role:"unhide"=role:"unhide",label:"显示所有窗口"
-label:"Close"=label:"Close",label:"关闭"
+#label:"Close"=label:"Close",label:"关闭"
 label:"Quit Clash for Windows"=label:"退出 Clash for Windows"
 role:"editMenu"=label:"编辑",submenu:[{role:"undo",label:"撤销"},{role:"redo",label:"重做"},{type:"separator"},{role:"cut",label:"剪切"},{role:"copy",label:"拷贝"},{role:"paste",label:"粘粘"},{role:"pasteAndMatchStyle",label:"粘粘并匹配样式"},{role:"delete",label:"删除"},{role:"selectAll",label:"全选"},{type:"separator"},{label:"Speech",label:"语音",submenu:[{role:"startSpeaking",label:"开始朗读"},{role:"stopSpeaking",label:"停止朗读"}]}]
 role:"viewMenu"=label:"显示",submenu:[{role:"reload",label:"重新载入"},{role:"forceReload",label:"强制重载"},{role:"toggleDevTools",label:"切换开发者工具"},{type:"separator"},{role:"resetZoom",label:"实际大小"},{role:"zoomIn",label:"放大"},{role:"zoomOut",label:"缩小"},{type:"separator"},{role:"togglefullscreen",label:"进入全屏幕"}]
@@ -2161,7 +2160,7 @@ e.failedProvidersCount?"":"s"=e.failedProvidersCount?"":""
 
 #0.19.27
 "network interfaces"="网络接口"
-"add firewall rules(for Allow LAN and system stack)"="添加防火墙规则(用于允许局域网连接和系统栈)"
+"add firewall rules(for Allow LAN and system stack)"="添加防火墙规则(用于允许局域网代理和系统栈)"
 #0.19.27-end
 
 #0.19.28
@@ -2175,15 +2174,15 @@ e.failedProvidersCount?"":"s"=e.failedProvidersCount?"":""
 
 # 增加关于
 "https://fonts.google.com/icons"="https://fonts.google.com/icons","https://github.com/BoyceLig/Clash_Chinese_Patch"
-[e._v("\n        Document\n      ")])=[e._v("\n        文档\n      ")]), i("div",{staticClass:"text-[color:var(--feedback-link-c)] mr-2 cursor-pointer",on:{click:function(t){return e.select(20)}}},[e._v("\n        汉化相关\n      ")])
+#[e._v("\n        Document\n      ")])=[e._v("\n        文档\n      ")]), i("div",{staticClass:"text-[color:var(--feedback-link-c)] mr-2 cursor-pointer",on:{click:function(t){return e.select(20)}}},[e._v("\n        汉化相关\n      ")])
 # 增加关于-end
 
 #0.20.0
 attrs:{items:["info","debug"]}=attrs:{items:["信息","调试"]}
 "Copy Domain:Port"="复制 域名:端口"
-e._s(t.msg)=e._s(t.msg.replace(" redir-host is deprecated, please use fake-ip instead", " redir-host 已弃用，请改用 fake-ip").replace(" initial rule provider"," 初始化规则服务商").replace(" connected, doesn't match any rule", " 已连接，不匹配任何规则").replace(" connected", " 已连接").replace(" dial failed", " 连接失败").replace(" start failed", " 启动失败").replace(" accept connection", " 接收连接").replace(" find process success", " 成功找到进程").replace(" initial compatible provider", " 初始化兼容的服务商").replace(" dial ICMP Packet failed", " 连接 ICMP 数据包失败").replace(" can't open cache file", " 无法打开缓存文件").replace(" dns response", " DNS 响应").replace(" hijack udp dns", " 劫持 UDP DNS").replace(" TUN listening", " 监听 TUN").replace(" listening", " 监听").replace(" failed to dummy bind, retry in 1 second...", " 虚拟绑定失败，1秒后重试...").replace(" resolve success", " 解析成功").replace(" accept session", " 接收会话"))
-"FROM":t.key.toUpperCase()="本地地址":t.key.toUpperCase().replace("NAME", "名称").replace("RULEPAYLOAD", "规则负载").replace("RULE", "规则").replace("INBOUND", "入站").replace("PROXY", "代理").replace("ADDR", "地址").replace("PATH", "路径").replace("ERROR", "错误").replace("SOURCE", "来源").replace("QTYPE", "查询类型").replace("TYPE", "类型").replace("ANSWER", "应答").replace("IFACE", "接口").replace("GATEWAY", "网关").replace("MAXTIMES", "最大次数").replace("TIMES", "次数").replace("HOST", "主机")
-#e._s(t.value)=e._s(t.value.replace("connect error:","错误:").replace("connectex: A socket operation was attempted to an unreachable network"," 尝试对无法访问的网络进行套接字操作").replace("all DNS requests failed, first error","所有DNS请求失败，第一个错误").replace("use default dns resolve failed: couldn't find ip","使用默认DNS解析失败:找不到IP").replace("no such host","域名未解析").replace("connectex: No connection could be made because the target machine actively refused it"," 由于目标机主动拒绝连接，所以无法进行连接").replace("context deadline exceeded", "客户端请求超时").replace("wsarecv: An existing connection was forcibly closed by the remote host", " 远程主机强制关闭现有连接").replace("bind: address already in use", "绑定: 地址已经在使用").replace("network invalid", "网络无效").replace("no such device", "设备不存在").replace("dial","连接").replace("timeout","超时").replace("lookup","查找").replace("read", "读取").replace("listen", "监听"))
+#e._s(t.msg)=e._s(t.msg.replace(" can't create TCP Endpoint in ipstack", " 无法在 ipstack 中创建 TCP 端点").replace(" redir-host is deprecated, please use fake-ip instead", " redir-host 已弃用，请改用 fake-ip").replace(" initial rule provider"," 初始化规则服务商").replace(" connected, doesn't match any rule", " 已连接，不匹配任何规则").replace(" connected", " 已连接").replace(" dial failed", " 连接失败").replace(" start failed", " 启动失败").replace(" accept connection", " 接收连接").replace(" find process success", " 成功找到进程").replace(" initial compatible provider", " 初始化兼容的服务商").replace(" dial ICMP Packet failed", " 连接 ICMP 数据包失败").replace(" can't open cache file", " 无法打开缓存文件").replace(" dns response", " DNS 响应").replace(" hijack udp dns", " 劫持 UDP DNS").replace(" TUN listening", " 监听 TUN").replace(" listening", " 监听").replace(" failed to dummy bind, retry in 1 second...", " 虚拟绑定失败，1秒后重试...").replace(" resolve success", " 解析成功").replace(" accept session", " 接收会话"))
+#"FROM":t.key.toUpperCase()="本地地址":t.key.toUpperCase().replace("NAME", "名称").replace("RULEPAYLOAD", "规则负载").replace("RULE", "规则").replace("INBOUND", "入站").replace("PROXY", "代理").replace("ADDR", "地址").replace("PATH", "路径").replace("ERROR", "错误").replace("SOURCE", "来源").replace("QTYPE", "查询类型").replace("TYPE", "类型").replace("ANSWER", "应答").replace("IFACE", "接口").replace("GATEWAY", "网关").replace("MAXTIMES", "最大次数").replace("TIMES", "次数").replace("HOST", "主机")
+#e._s(t.value)=e._s(t.value.replace("connect error:","错误:").replace("connectex: A socket operation was attempted to an unreachable network"," 尝试对无法访问的网络进行套接字操作").replace("all DNS requests failed, first error","所有DNS请求失败，第一个错误").replace("use default dns resolve failed: couldn't find ip","使用默认DNS解析失败:找不到IP").replace("no such host","域名未解析").replace("connectex: No connection could be made because the target machine actively refused it"," 由于目标机主动拒绝连接，所以无法进行连接").replace("context deadline exceeded", "客户端请求超时").replace("wsarecv: An existing connection was forcibly closed by the remote host", " 远程主机强制关闭现有连接").replace("bind: address already in use", "绑定: 地址已经在使用").replace("Error creating interface: Cannot create a file when that file already exists", "创建接口时出错：当文件已存在时，无法创建该文件").replace("network invalid", "网络无效").replace("no such device", "设备不存在").replace("dial","连接").replace("timeout","超时").replace("lookup","查找").replace("read", "读取").replace("listen", "监听"))
 #0.20.0-end
 
 #0.20.0补充
@@ -2201,7 +2200,7 @@ e._v("Set the editor used by the Settings module, if you need custom\n          
 e._v("Set whether to allow pop-up system-level notifications")=e._v("设置是否允许弹出系统级通知")
 e._v("Set weather to show Process Name(if present) in Connections\n            module")=e._v("设置在连接模块中显示进程名称 (如果存在)")
 e._v("Set whether to display dashboard at startup")=e._v("设置是否在启动时显示主窗口")
-e._v("Set whether to use a random port as the core controller port (the\n            port section of external-controller in Home\n            Directory/config.ymal)")=e._v("设置是否使用随机端口作为核心控制器端口 (配置文件主目录/config.ymal 中 external-controller 的 port 部分)")
+e._v("Set whether to use a random port as the core controller port (the\n            port section of external-controller in Home\n            Directory/config.ymal)")=e._v("设置是否使用随机端口作为核心控制器端口 (配置文件主目录/config.ymal 中 external-controller 的端口部分)")
 e._v("Set whether to use a random port as the Port parameter in General\n            (mixed-port parameter in Home Directory/config.ymal)")=e._v("设置是否使用随机端口作为常规中的端口参数 (配置文件主目录/config.ymal 中的 mixed-port 参数)")
 e._v("Terminate dashboard to free memory after closed.\n            ")=e._v("关闭主窗口后终止 CFW 以释放内存 \n            ")
 e._v("Set the taskbar icon in the default state")=e._v("设置默认状态下的任务栏图标")
@@ -2235,7 +2234,7 @@ e._v("\n              Set the type of chain displayed in the Connections module:
 e._v("Proxy")]),e._v(" - Proxy name")=e._v("节点名")]),e._v(" - 节点名字")
 e._v("Group")]),e._v(" - Group name")=e._v("分组名")]),e._v(" - 分组名字")
 e._v("Both")]),e._v(" - Proxy name and group name")=e._v("全部")]),e._v(" - 节点名字和分组名字")
-e._v("Set interface name to overwrite like Mixin, will be removed in\n            the future")=e._v("像混合模式一样设置接口名覆盖，以后会移除")
+e._v("Set interface name to overwrite like Mixin, will be removed in\n            the future")=e._v("像混合配置一样设置接口名覆盖，以后会移除")
 e._v("Set child processes to be spawned with dashboard,\n            ")=e._v("设置要使用 CFW 创建的子进程,\n            ")
 e._v("Set parsers to process profiles after downloaded,\n            ")=e._v("为下载后的配置文件设置预处理,\n            ")
 e._v("Set the path to the profiles folder, default: Home\n            Directory/profiles")=e._v("设置配置文件文件夹的路径，默认: 配置文件主目录/profiles")
@@ -2317,7 +2316,7 @@ label:"Close All"=label:"关闭所有连接"
 #0.20.7-end
 
 #更新会出错
-e._v("\n                "+e._s(t.value)+"\n              ")=e._v("\n                "+e._s(t.value.replace("connect error:","错误:").replace("connectex: A socket operation was attempted to an unreachable network"," 尝试对无法访问的网络进行套接字操作").replace("all DNS requests failed, first error","所有DNS请求失败，第一个错误").replace("use default dns resolve failed: couldn't find ip","使用默认DNS解析失败:找不到IP").replace("no such host","域名未解析").replace("connectex: No connection could be made because the target machine actively refused it"," 由于目标机主动拒绝连接，所以无法进行连接").replace("context deadline exceeded", "客户端请求超时").replace("wsarecv: An existing connection was forcibly closed by the remote host", " 远程主机强制关闭现有连接").replace("bind: address already in use", "绑定: 地址已经在使用").replace("network invalid", "网络无效").replace("no such device", "设备不存在").replace("dial","连接").replace("timeout","超时").replace("lookup","查找").replace("read", "读取").replace("listen", "监听"))+"\n              ")
+#e._v("\n                "+e._s(t.value)+"\n              ")=e._v("\n                "+e._s(t.value.replace("connect error:","错误:").replace("connectex: A socket operation was attempted to an unreachable network"," 尝试对无法访问的网络进行套接字操作").replace("all DNS requests failed, first error","所有DNS请求失败，第一个错误").replace("use default dns resolve failed: couldn't find ip","使用默认DNS解析失败:找不到IP").replace("no such host","域名未解析").replace("connectex: No connection could be made because the target machine actively refused it"," 由于目标机主动拒绝连接，所以无法进行连接").replace("context deadline exceeded", "客户端请求超时").replace("wsarecv: An existing connection was forcibly closed by the remote host", " 远程主机强制关闭现有连接").replace("bind: address already in use", "绑定: 地址已经在使用").replace("network invalid", "网络无效").replace("operation timed out", "操作已超时").replace("no such device", "设备不存在").replace("dial","连接").replace("timeout","超时").replace("lookup","查找").replace("read", "读取").replace("listen", "监听"))+"\n              ")
 #更新会出错-end
 
 #0.20.8
@@ -2337,3 +2336,254 @@ e._v("\n                "+e._s(t.value)+"\n              ")=e._v("\n            
 #0.20.12
 "schtasks(recommended)"="schtasks(推荐)"
 #0.20.12-end
+
+#0.20.15
+"Show actual file"="显示实际文件"
+#0.20.15-end
+
+#0.20.16
+attrs:{hint:"Destination"}=attrs:{hint:"目标"}
+"CFW Editor"="CFW 编辑器"
+"Font Size"="字体大小"
+"Copy URL MD5"="复制 URL MD5"
+"Follow link"="跟踪链接"
+"Execute command"="执行命令"
+"Execute command {0}",t)}"="执行命令 {0}",t)}"
+"Open Link"="打开链接"
+"Go to Previous Problem in Files (Error, Warning, Info)"="转到文件中的上一个问题 (错误, 警告, 信息)"
+"Go to Next Problem in Files (Error, Warning, Info)"="转到文件中的下一个问题 (错误, 警告, 信息)"
+"Go to Previous Problem (Error, Warning, Info)"="转到上一个问题 (错误, 警告, 信息)"
+"Go to Next Problem (Error, Warning, Info)"="转到下一个问题 (错误, 警告, 信息)"
+"Icon for goto previous marker."="转到上一个标记的图标."
+"Icon for goto next marker."="转到下一个标记的图标."
+"Editor marker navigation widget background."="编辑器标记导航小部件背景."
+"Editor marker navigation widget info heading background."="编辑器标记导航小部件信息标题背景."
+"Editor marker navigation widget warning heading background."="编辑器标记导航小部件警告标题背景."
+"Editor marker navigation widget error heading background."="编辑器标记导航小部件错误标题背景."
+"Editor marker navigation widget info color."="编辑器标记导航小部件信息颜色."
+"Editor marker navigation widget warning color."="编辑器标记导航小部件警告颜色."
+"Editor marker navigation widget error color."="编辑器标记导航小部件错误颜色."
+"{0} of {1} problem"="{0} of {1} problem"
+#"Error")="错误")
+title:"Error"=title:"错误"
+#"Warning")="警告")
+title:"Warning"=title:"警告"
+#0.20.16-end
+
+#0.20.16补充
+'Make changes to a profile then we merge them for you when you refresh it. <a href="https://docs.cfw.lbyczf.com/contents/diff.html">Docs</a>'==='对配置文件进行更改，程序将会在配置文件更新时自动合并到新的配置文件中。 <a href="https://docs.cfw.lbyczf.com/contents/diff.html">文档</a>'
+#0.20.16补充-end
+
+#0.20.17
+{Host:={主机:
+placeholder:"Port"=placeholder:"端口"
+e._v("Port")]),e._v(" ")=e._v("端口")]),e._v(" ")
+label:"General"=label:"常规"
+title:"General"=title:"常规"
+e._v("Home Directory/config.yaml")=e._v("配置文件主目录/config.yaml")
+e._v("Learn PAC")=e._v("了解 PAC")
+e._v(" is the placeholder of the\n            "),t("strong",[e._v("Port")]),e._v(" in "),t("strong",[e._v("General")])=e._v(" 是"),t("strong",[e._v("常规")]),e._v("中的"),t("strong",[e._v("端口")]),e._v("的占位符\n            ")
+"Resolve a host using Clash core"="使用 Clash 核心解析主机"
+e._v("Script Interval")=e._v("脚本间隔")
+placeholder:"seconds"=placeholder:"秒数"
+text:"Manual Run"=text:"手动运行"
+e._v("DNS Query")=e._v("DNS 查询")
+e._v("Status")=e._v("状态")
+e._v("Answer")=e._v("应答")
+e._v("Flags")=e._v("标志")
+e._v("Authority")=e._v("权限")
+e._v("Additional")=e._v("附加")
+"Please input domain"="请输入域名"
+e._v("Auto Redir")=e._v("自动 Redir")
+e._v("Auto Route(Auto Redir)"=e._v("自动路由(自动 Redir)"
+e._v("\n              Copy\n            ")=e._v("\n              复制\n            ")
+e._v("\n          Lookup\n        ")=e._v("\n          查询\n        ")
+placeholder:"Host"=placeholder:"主机"
+placeholder:"Type"=placeholder:"类型"
+title:"MD5 Copied"=title:"MD5 已复制"
+placeholder:"eg: google.com"=placeholder:"例如: google.com"
+#0.20.17-end
+
+#0.20.18
+"Test script using by Script mode"="通过脚本模式测试脚本"
+"Script Test"="脚本测试"
+e._v("Network")=e._v("网络")
+e._v("Host")=e._v("主机")
+e._v("Source IP")=e._v("源 IP")
+e._v("Source Port")=e._v("源端口")
+e._v("Destination IP")=e._v("目标 IP")
+e._v("Destination Port")=e._v("目标端口")
+hint:"ESC"=hint:"退出"
+hint:"Esc"=hint:"退出"
+label:"Delete"=label:"删除"
+text:"Delete"=text:"删除"
+e._v("None")=e._v("不中断")
+{items:["None"={items:["不中断"
+?"Resume"=?"恢复"
+:"Pause"=:"暂停"
+?"Pause"=?"暂停"
+text:"Open"=text:"打开"
+text:"Select"=text:"选择"
+||"Select"}=||"选择"}
+?"Select"=?"选择"
+text:"Copy"=text:"复制"
+label:"Close"=label:"关闭"
+:"Off"=:"关闭"
+?"On"=?"开启"
+e._v("Custom")=e._v("自定义")
+,"Custom"]=,"自定义"]
+e._v("Text")=e._v("文本")
+e._v("Interface")=e._v("接口")
+"Trust"="信任"
+"Certificate Error"="证书错误"
+"Failed verify the certificate for ".concat(r,". This may be because the certificate is self-signed or the certificate authority is not recognized. Do you want to trust this certificate?")="证书验证失败对于 ".concat(r,". 这可能是因为证书是自签名的或证书颁发机构未被识别. 是否要信任此证书?")
+"Success, result: "="成功, 结果: "
+"Fail, error: "="失败, 错误: "
+#0.20.18-end
+
+#0.20.19
+"Delay Type"="延迟类型"
+"Mean Delay"="平均延迟"
+" - Delay of a latency test"=" - 单次延迟测试的延迟值"
+" - Average delay of two latency tests"=" - 两次延迟测试的平均延迟值"
+"Reset DNS Settings"="重置 DNS 设置"
+e._v("\n      If ")=e._v("\n      如果")
+e._v("Enable")=e._v("启用")
+e._v("Enabled")=e._v("已启用")
+e._v("Custom Servers")=e._v("自定义服务器")
+e._v("Custom Servers:")=e._v("自定义服务器:")
+e._v("Detected Servers")=e._v("检测到的服务器")
+e._v("Detected Servers:")=e._v("检测到的服务器:")
+e._v(" will be used to\n      reset the system DNS after TUN mode is disabled. Otherwise,\n      ")=e._v("将被用于在 TUN 模式被禁用后重置系统 DNS. 否则,\n      ")
+e._v("\n      will be used.\n    ")=e._v("将被使用.\n    ")
+"System DNS servers that will be set after TUN Mode is disabled"="禁用 TUN 模式后将设置的系统 DNS 服务器"
+#"1. This software is only intended for the purpose of learning and researching network technology. Users must comply with the laws and regulations in their respective regions and must not use it for illegal purposes. The software will not be held responsible for any actions of the user.\n\n2. Users must strictly abide by the laws, regulations, and policies of their own countries/regions when using this software. Any consequences or liabilities resulting from violations of relevant laws, regulations, and policies shall be borne by the user.\n\n3. The software is not responsible for the transmission of content. Therefore, if any problems or consequences arise from the use of this software, the user shall bear all responsibility.\n\n4. If the software violates any laws and regulations of the user's country/region, the user must immediately stop using it and bear the corresponding legal responsibility.\n\n5. While using this software, the user acknowledges and agrees that the software cannot guarantee network stability, accuracy, timeliness, and security. The software will not be held responsible for any connection problems or inability to connect caused by network congestion, firewall restrictions, DNS pollution, operator interference, and other reasons.\n\n6. The software does not provide technical support and is not responsible for any direct or indirect losses caused by the user's use of this software, including but not limited to property damage, data loss, and other forms of loss.\n\n7. The software has made every effort to ensure the stability and safety of the software, but will not be held responsible for any direct or indirect losses suffered by the user due to the use of this software.\n\n8. The software reserves the right to change the terms and conditions at any time. Once the terms and conditions change, an announcement will be posted on the software page. Users need to pay attention and abide by the latest version of the terms and conditions.\n    "="1. 本软件仅用于学习和研究网络技术。用户必须遵守各自所在地区的法律法规，不得将其用于非法目的。本软件不会对用户的任何行为负责。\n\n2. 用户在使用本软件时必须严格遵守本国/地区的法律、法规和政策。因违反相关法律、法规和政策而产生的任何后果或责任应由用户承担。\n\n3. 本软件不负责内容的传输。因此，如果因使用本软件而产生任何问题或后果，用户应承担全部责任。\n\n4. 如果本软件违反了用户所在国家或地区的法律法规，用户必须立即停止使用并承担相应的法律责任。\n\n5. 在使用本软件时，用户承认并同意本软件不能保证网络的稳定性、准确性、及时性和安全性。由于网络拥塞、防火墙限制、DNS 污染、运营商干扰和其他原因导致的任何连接问题或无法连接，本软件将不承担任何责任。\n\n6. 本软件不提供技术支持，也不对用户使用本软件造成的任何直接或间接损失负责，包括但不限于财产损失、数据损失和其他形式的损失。\n\n7. 本软件已尽一切努力确保软件的稳定性和安全性，但对用户因使用本软件而遭受的任何直接或间接损失不承担任何责任。\n\n8. 软件保留随时更改条款和条件的权利。一旦条款和条件发生变化，将在软件页面上发布公告。用户需要注意并遵守最新版本的条款和条件。\n    "
+#[e._v("\n          Document\n        ")])=[e._v("\n          帮助文档\n        ")]), i("div",{staticClass:"text-[color:var(--feedback-link-c)] mr-2 cursor-pointer",on:{click:function(t){return e.select(20)}}},[e._v("\n        汉化相关\n      ")])
+e._v("\n          Disclaimer Statement\n        ")=e._v("\n          免责声明\n        ")
+#0.20.19-end
+
+#0.20.20
+"GUI Data Folder"="GUI 数据文件夹"
+"Show/Hide timed-out proxies"="显示/隐藏超时代理"
+"Show/hide proxies"="显示/隐藏代理"
+#0.20.20-end
+
+#0.20.22
+"Side by side mode"="并排模式"
+#0.20.22-end
+
+#0.20.23
+"SSID Strategy"="SSID 策略"
+"\n              Set the strategy for SSID matching, the first matched strategy\n              will be used,\n              "="\n              设置 SSID 匹配策略，将使用第一个匹配的策略,\n              "
+#0.20.23-end
+
+#0.20.24
+label:"Test"=label:"测试"
+"SSID Strategy:"="SSID 策略:"
+"Show all Quick Access Providers"="显示所有快速访问服务商"
+"Unknown Outline Provider"="未知的大纲服务商"
+"Cannot set tokens provider for unknown language "="无法为未知语言设置令牌服务商 "
+#0.20.24-end
+
+#0.20.25
+"PAC Server Port"="PAC 服务器端口"
+"\n            Leave it empty to use a random port."="\n            留空以使用随机端口."
+"Restart the APP"="重新启动 APP"
+" to take effect.\n          "=" 来使更改生效.\n          "
+placeholder:"random"=placeholder:"随机端口"
+#0.20.25-end
+
+#0.20.29
+e._v("\n        Close All\n        ")=e._v("\n        全部断开\n        ")
+attrs:{items:["Simple","Detailed"]}=attrs:{items:["简单","详细"]}
+title:"Source IP"=title:"源 IP"
+title:"Destination IP"=title:"目标 IP"
+title:"Host"=title:"主机"
+title:"Network"=title:"网络协议"
+title:"Type"=title:"类型"
+title:"Source Port"=title:"源端口"
+title:"Destination Port"=title:"目标端口"
+#0.20.29-end
+
+#0.20.32
+"\n          Bind: "="\n          绑定: "
+"New Bind Address"="新的绑定地址"
+"Change Bind Address"="更改绑定地址"
+"Allow LAN will only bind to address you set, * means all interfaces"="允许局域网代理将只绑定到您设置的地址，* 表示所有接口"
+#0.20.32-end
+
+#0.20.33
+"Mode has been changed to "="模式已更改为"
+"All traffic will be routed through the selected proxy"="所有流量将通过选定的代理进行路由"
+"All traffic will be routed according to the rules"="所有流量将根据规则进行路由"
+"All traffic will go directly"="所有流量将直接通过"
+"All traffic will be routed according to the script"="所有流量将根据脚本进行路由"
+"\n      All traffic will go directly\n    "="\n      所有流量将直接通过\n    "
+concat(k().capitalize(e))=concat(k().capitalize(e).replace("Global", "全局").replace("Rule", "规则").replace("Direct", "直连").replace("Script", "脚本"))
+[e._v("\n          Document\n        ")]),e._v(" ")=[e._v("\n          帮助文档\n        ")]),e._v(" "),t("div",{staticClass:"text-[color:var(--feedback-link-c)] cursor-pointer",on:{click:function(t){return e.select(20)}}},[e._v("\n          汉化相关\n        ")]),e._v(" ")
+i.key?"FROM":i.key.toUpperCase()=i.key?"本地地址":i.key.toUpperCase().replace("NAME", "名称").replace("RULEPAYLOAD", "规则负载").replace("RULE", "规则").replace("INBOUND", "入站").replace("NETWORK", "网络").replace("PROXY", "代理").replace("ADDR", "地址").replace("PATH", "路径").replace("ERROR", "错误").replace("SOURCE", "来源").replace("QTYPE", "查询类型").replace("TYPE", "类型").replace("ANSWER", "应答").replace("IFACE", "接口").replace("GATEWAY", "网关").replace("MAXTIMES", "最大次数").replace("TIMES", "次数").replace("HOST", "主机").replace("MODE", "模式")
+e._s(i.msg)=e._s(i.msg.replace(" can't create TCP Endpoint in ipstack", " 无法在 ipstack 中创建 TCP 端点").replace(" redir-host is deprecated, please use fake-ip instead", " redir-host 已弃用，请改用 fake-ip").replace(" initial rule provider"," 初始化规则服务商").replace(" connected, doesn't match any rule", " 已连接，不匹配任何规则").replace(" connected", " 已连接").replace(" dial failed", " 连接失败").replace(" start failed", " 启动失败").replace(" parse failed", " 解析失败").replace(" accept connection", " 接收连接").replace(" find process success", " 成功找到进程").replace(" initial compatible provider", " 初始化兼容的服务商").replace(" dial ICMP Packet failed", " 连接 ICMP 数据包失败").replace(" can't open cache file", " 无法打开缓存文件").replace(" dns response", " DNS 响应").replace(" hijack udp dns", " 劫持 UDP DNS").replace(" TUN listening", " 监听 TUN").replace(" listening", " 监听").replace(" failed to dummy bind, retry in 1 second...", " 虚拟绑定失败，1秒后重试...").replace(" resolve success", " 解析成功").replace(" accept session", " 接收会话").replace("inbound create success", "入站创建成功"))
+e._v("\n                "+e._s(i.value)+"\n              ")=e._v("\n                "+e._s(i.value.replace("connect error:","错误:").replace("connectex: A socket operation was attempted to an unreachable network"," 尝试对无法访问的网络进行套接字操作").replace("all DNS requests failed, first error","所有DNS请求失败，第一个错误").replace("use default dns resolve failed: couldn't find ip","使用默认DNS解析失败:找不到IP").replace("no such host","域名未解析").replace("connectex: No connection could be made because the target machine actively refused it"," 由于目标机主动拒绝连接，所以无法进行连接").replace("context deadline exceeded", "客户端请求超时").replace("wsarecv: An existing connection was forcibly closed by the remote host", " 远程主机强制关闭现有连接").replace("bind: address already in use", "绑定: 地址已经在使用").replace("network invalid", "网络无效").replace("operation timed out", "操作已超时").replace("no such device", "设备不存在").replace("script not found", "找不到脚本").replace("dial","连接").replace("timeout","超时").replace("lookup","查找").replace("read", "读取").replace("listen", "监听"))+"\n              ")
+#0.20.33-end
+
+#0.20.34
+"Routed through the selected proxy"="流量将通过选定的代理进行路由"
+"Routed according to the rules"="流量将根据规则进行路由"
+"Go directly"="流量将直接通过"
+"Routed according to the script"="流量将根据脚本进行路由"
+"Title Bar Text"="标题栏文本"
+"\n              Set the text in title bar, some placeholders for replacement:\n            "="\n              设置标题栏中的文本，一些占位符用于替换:\n            "
+" - Current proxy mode"=" - 当前代理模式"
+" - System Proxy status, On or Off"=" - 系统代理状态，开启或关闭"
+" - TUN Mode status, On or Off"=" - TUN 模式状态，开启或关闭"
+" - Mixin status, On or Off"=" - Mixin 状态，开启或关闭"
+"Text to display in title bar"="要在标题栏中显示的文本"
+e._v("Strategy")=e._v("策略")
+"Get Current SSID"="获取当前 SSID"
+"\n              Multiple SSIDs are joined by "="\n              多个 SSIDs 的连接使用 "
+attrs:{text:"Fetch"}=attrs:{text:"提取"}
+"Current SSID"="当前 SSID"
+"Copy the SSID to the clipboard"="将 SSID 复制到剪贴板"
+e._v("Rule")=e._v("规则")
+this.settings.titleBarText.replace("%mode%",this.mode).replace("%Mode%",this.capMode)=this.settings.titleBarText.replace("%mode%",this.mode.replace("global", "全局").replace("rule", "规则").replace("direct", "直连").replace("script", "脚本")).replace("%Mode%",this.capMode.replace("Global", "全局").replace("Rule", "规则").replace("Direct", "直连").replace("Script", "脚本"))
+#0.20.34-end
+
+#0.20.35
+"Are you sure to open this URL?"="您确定要打开这个 URL 吗？"
+#0.20.35-end
+
+#0.20.36
+"At least one profile failed to update while dashboard is closed."="在面板关闭时，至少有一个配置文件更新失败."
+"Please wait"="请稍等"
+#0.20.36-end
+
+#0.20.37
+"Check For Updates"="检查更新"
+" Set whether to check for updates every 6 hours"=" 设置是否每 6 小时检查一次更新"
+"The image failed to load, click to redirect to the website."="图像加载失败，请单击重定向到网站."
+#0.20.37-end
+
+#0.20.38
+"1. This software is only intended for the purpose of learning and researching network technology. Users must comply with the laws and regulations in their respective regions and must not use it for illegal purposes. The software will not be held responsible for any actions of the user.\n\n2. Users must strictly abide by the laws, regulations, and policies of their own countries/regions when using this software. Any consequences or liabilities resulting from violations of relevant laws, regulations, and policies shall be borne by the user.\n\n3. The software is not responsible for the transmission of content. Therefore, if any problems or consequences arise from the use of this software, the user shall bear all responsibility.\n\n4. If the software violates any laws and regulations of the user's country/region, the user must immediately stop using it and bear the corresponding legal responsibility.\n\n5. While using this software, the user acknowledges and agrees that the software cannot guarantee network stability, accuracy, timeliness, and security. The software will not be held responsible for any connection problems or inability to connect caused by network congestion, firewall restrictions, DNS pollution, operator interference, and other reasons.\n\n6. The software does not provide technical support and is not responsible for any direct or indirect losses caused by the user's use of this software, including but not limited to property damage, data loss, and other forms of loss.\n\n7. The software has made every effort to ensure the stability and safety of the software, but will not be held responsible for any direct or indirect losses suffered by the user due to the use of this software.\n\n8. The software reserves the right to change the terms and conditions at any time. Once the terms and conditions change, an announcement will be posted on the software page. Users need to pay attention and abide by the latest version of the terms and conditions.\n\n9. The software may display advertisements from third-party entities. The software does not endorse, guarantee, or assume responsibility for the accuracy, relevancy, or quality of the information presented in these advertisements. Users acknowledge and agree that the software is not liable for any loss or damage arising from the display of advertisements or any transactions or interactions users may have with the advertisers. The user is solely responsible for any interactions with advertisers and is advised to exercise caution and conduct due diligence before engaging in any transactions or interactions with advertisers.\n    "="1. 本软件仅用于学习和研究网络技术。用户必须遵守各自所在地区的法律法规，不得将其用于非法目的。本软件不会对用户的任何行为负责。\n\n2. 用户在使用本软件时必须严格遵守本国/地区的法律、法规和政策。因违反相关法律、法规和政策而产生的任何后果或责任应由用户承担。\n\n3. 本软件不负责内容的传输。因此，如果因使用本软件而产生任何问题或后果，用户应承担全部责任。\n\n4. 如果本软件违反了用户所在国家或地区的法律法规，用户必须立即停止使用并承担相应的法律责任。\n\n5. 在使用本软件时，用户承认并同意本软件不能保证网络的稳定性、准确性、及时性和安全性。由于网络拥塞、防火墙限制、DNS 污染、运营商干扰和其他原因导致的任何连接问题或无法连接，本软件将不承担任何责任。\n\n6. 本软件不提供技术支持，也不对用户使用本软件造成的任何直接或间接损失负责，包括但不限于财产损失、数据损失和其他形式的损失。\n\n7. 本软件已尽一切努力确保软件的稳定性和安全性，但对用户因使用本软件而遭受的任何直接或间接损失不承担任何责任。\n\n8. 软件保留随时更改条款和条件的权利。一旦条款和条件发生变化，将在软件页面上发布公告。用户需要注意并遵守最新版本的条款和条件。\n\n9. 本软件可以显示来自第三方实体的广告。本软件不对这些广告中呈现的信息的准确性、相关性或质量表示认可、保证或承担责任。用户承认并同意，本软件不对因广告展示或用户与广告商的任何交易或互动而产生的任何损失或损害负责。用户全权负责与广告商的任何互动，建议用户在与广告商进行任何交易或互动之前谨慎行事并进行尽职调查。\n    "
+#0.20.38-end
+
+#0.20.39
+"Update Through Built-in Proxy"="通过内置代理进行更新"
+"By default, requests in CFW will follow the system proxy\n            settings. When this switch is turned on, the update requests for\n            Profiles will be directed through the built-in proxy in\n            Clash."="默认情况下，CFW 中的请求将遵循系统代理设置。\n            当此开关打开时，配置文件的更新请求将通过 Clash 中的内置代理进行定向。"
+"\n          Turn on to listen on all interfaces by default, or else only listen\n          on 127.0.0.1. You can change the Bind Address on the right side to\n          specify a particular interface.\n          "="\n          默认情况下，打开可侦听所有接口，否则仅侦听 127.0.0.1。\n          您可以更改右侧的 绑定 以指定特定接口。\n          "
+e._v("Inbounds")=e._v("入站")
+e._v("Deault Nameserver")=e._v("默认名称服务器")
+e._v("Default Nameserver")=e._v("默认名称服务器")
+e._v("Nameserver Policy")=e._v("名称服务器策略")
+placeHolder:"eg: 114.114.114.114"=placeHolder:"例: 114.114.114.114"
+placeHolder:"eg: 8.8.8.8"=placeHolder:"例: 8.8.8.8"
+placeHolder:"eg: *.lan"=placeHolder:"例: *.lan"
+placeHolder:"eg: any:53"=placeHolder:"例: any:53"
+keyPlaceHolder:"domain"=keyPlaceHolder:"域名"
+#0.20.39-end
+
+#0.20.39补充
+'Changes contains conflict, "Make changes" to solve issues.'='更改包含冲突，"修改合并文件"以解决问题。'
+'Fail to merge profiles, "Make changes" to solve issues.'='未能合并配置文件，"修改合并文件"以解决问题。'
+"Make changes"="修改合并文件"
+#0.20.39补充-end

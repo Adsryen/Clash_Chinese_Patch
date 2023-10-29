@@ -24,23 +24,28 @@
 
 ## 相关推荐：
 
-### 相关推荐1：OK加速
+### 相关推荐1：逐日
 8.8折优惠卷码：clash
 
-[OK加速](http://o.okjiasu.com/auth/register?code=F9B0)
-[TG群组一键直达](https://t.me/okjiasu)
+[逐日](http://zhuri.cc/auth/register?code=F9B0)
+[TG群组一键直达](https://t.me/zhuricc)
 [TG公告板一键直达](https://t.me/okjiasuqi)
 
 特色属性：
 
 ✅不限速，不限时。
 
-✅轻松带你畅游世界。
-
 ✅使用不满意随时🉑退款！！！
 
 ✅尊重用户隐私，不保留用户使用记录！！！
 
+✅免费提供Netflix高级视频会员账号。
+
+✅免费提供iOS美区id内含小火箭/圈X等多款付费软件。
+
+购买小火箭、Google voice👉[神马杂货铺](https://googlevoice.top/)
+
+Chatgpt网站👉[WOAIAI·GPT](https://chat1.woaiai.cc/)
 
 
 
